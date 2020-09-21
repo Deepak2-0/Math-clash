@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="game-Region" id="gameRegion">
+      <div id="top">
+        <div class="scores">
+          <div id="toScore"></div>
+          <div id="sumLeft"></div>
+        </div>
+        <div id="scoreBoard"></div>
+      </div>
+      <div id="bottom"></div>
+    </div>
+    <div class="gameOverContainer hide" id="gameOverContainer">
+      <div class="gameOver-text">Game Over</div>
+      <button class="btn" onclick="startNewGame()"><h3>Play Again</h3></button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

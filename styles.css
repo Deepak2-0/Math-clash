@@ -1,0 +1,85 @@
+body {
+  background-color: #ffe2e2;
+  color: #2d4059;
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.game-Region {
+  width: 30%;
+  margin: auto;
+  margin-top: 5vh;
+  background-color: #95e1d3;
+  height: 90vh;
+}
+.hide {
+  display: none;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center; */
+}
+
+.selected {
+  background: orangered;
+  color: #fff;
+}
+#top {
+  height: 35%;
+}
+.scores {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 7%;
+}
+#bottom {
+  height: 65%;
+  background-color: #fce38a;
+}
+#toScore {
+  height: 80px;
+  width: 80px;
+  background-color: #f38181;
+  font-size: 3rem;
+  text-align: center;
+}
+#sumLeft {
+  height: 50px;
+  width: 50px;
+  background-color: #eaffd0;
+  font-size: 2rem;
+  text-align: center;
+}
+#scoreBoard {
+  text-align: center;
+  margin-top: 8%;
+  font-size: 2rem;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  border: 2px solid black;
+  height: 40px;
+  width: 60px;
+  border-radius: 20px;
+  margin: 3px;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 2%;
+}
+#gameOverContainer {
+  font-size: 1.5rem;
+  margin: 1%;
+}
+.btn {
+  margin: 5%;
+  border-radius: 20px;
+}
